@@ -1,0 +1,1 @@
+A simple demo website can serve as a great starting point for beginners or as a quick example for showcasing web development skills. Here’s a brief guide to creating one, complete with HTML, CSS, and JavaScript.
