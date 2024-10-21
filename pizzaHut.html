@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="pizaaMedia.css">
+        <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+        <div class="background">
+                <nav class="navbar h-nav-res">
+                        <div class="logo-res"><img src="img/Backup_of_Untitled-1.jpg" alt="nothing"></div>
+                        <ul class="nav-list v-class-res">
+
+                                <div class="logo "><img src="img/Backup_of_Untitled-1.jpg" alt="nothing"></div>
+                                <li class="home"><a href="#Home">Home</a></li>
+                                <li><a href="Verity">Verity</a></li>
+                                <li><a href="contact us">contact us</a></li>
+                                <li><a href="services">services</a></li>
+
+                        </ul>
+                        <div class="rightnav v-class-res">
+                                <button class=" btn-sm show" id="order">Order Now</button>
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                                <span class="close">&times;</span>
+                                                <p>Some text in the Modal..</p>
+                                        </div>
+                                </div>
+
+                        </div>
+                        <div class="burger ">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                        </div>
+                </nav>
+
+                <section class=" firstsection">
+                        <div class="box-main">
+                                <div class="fhalf">
+                                        <p class="text-big">Lorem ipsum dolor sit amet.</p>
+                                        <p class="text-small">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                Aperiam
+                                                nemo voluptatem exercitationem ad quibusdam saepe blanditiis provident
+                                                veniam
+                                                earum repellat.</p>
+                                        <div class="buttons">
+                                                <button class="btn">Subscribe</button>
+                                                <button class="btn">Watch Demo</button>
+                                        </div>
+                                </div>
+                                <div class="sechalf">
+                                        <img class="sec" src="img/miki.jpg" alt="">
+                                </div>
+                        </div>
+                </section>
+
+        </div>
+
+        <!-- <div id="myDiv" class="header">
+                <h2>To Do List</h2>
+                <input type="text" id="myInput" placeholder="Title...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+
+        <ul id="myUL" class="ul">
+                <li>Jatin Tank</li>
+                <li>Jatin Tank</li>
+                <li>Jatin Tank</li>
+                <li>Jatin Tank</li>
+                <li>Jatin Tank</li>
+        </ul> -->
+
+        <section class="quiz-background">
+                <button class="quiz-heading ">Quiz Game</button>
+                <div class="quiz-box" id="qBox">
+                        <h2>Score : <span id="score">0</span></h2>
+                        <div class="question-container">
+                                <h3 id="question"> <p>Q.  8 * 4 = ?</p></h3>
+                        </div>
+                        <form action="" id="question-from" onsubmit="checkAns(event)">
+                                <input type="number" required name="answer" placeholder="Select Answer" id="answerInput">
+                                <button class=" btn primary-btn" type="submit">Submit</button>
+                        </form>
+                </div>
+        </section>
+
+        <div class="content-sec">
+                <section class="secRight">
+                        <div class="content">
+                                <p class="sectionTag">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="sectionSubTag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+                                        repellat sequi
+                                        accusantium nesciunt velit, commodi, facere temporibus cupiditate quia ducimus, aperiam
+                                        delectus
+                                        enim? Ad ab nesciunt soluta sequi quasi?. Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Quia facilis a omnis recusandae?</p>
+                        </div>
+                        <div class="thumbnail">
+                                <img src="img/bg.jpeg" alt="">
+                        </div>
+                </section>
+                <section class="secRight">
+                        <div class="content">
+                                <p class="sectionTag">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="sectionSubTag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+                                        repellat sequi
+                                        accusantium nesciunt velit, commodi, facere temporibus cupiditate quia ducimus, aperiam
+                                        delectus
+                                        enim? Ad ab nesciunt soluta sequi quasi?. Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Quia facilis a omnis recusandae?</p>
+                        </div>
+                        <div class="thumbnail">
+                                <img src="img/bg.jpeg" alt="">
+                        </div>
+                </section>
+                <section class="secRight">
+                        <div class="content">
+                                <p class="sectionTag">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="sectionSubTag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+                                        repellat sequi
+                                        accusantium nesciunt velit, commodi, facere temporibus cupiditate quia ducimus, aperiam
+                                        delectus
+                                        enim? Ad ab nesciunt soluta sequi quasi?. Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Quia facilis a omnis recusandae?</p>
+                        </div>
+                        <div class="thumbnail">
+                                <img src="img/bg.jpeg" alt="">
+                        </div>
+                </section>
+                <section class="secRight">
+                        <div class="content">
+                                <p class="sectionTag">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="sectionSubTag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+                                        repellat sequi
+                                        accusantium nesciunt velit, commodi, facere temporibus cupiditate quia ducimus, aperiam
+                                        delectus
+                                        enim? Ad ab nesciunt soluta sequi quasi?. Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Quia facilis a omnis recusandae?</p>
+                        </div>
+                        <div class="thumbnail">
+                                <img src="img/bg.jpeg" alt="">
+                        </div>
+                </section>
+        
+        </div>
+       
+
+        <section class="verity ">
+                <div class="head-verity">Verity</div>
+                <button class="section">Section - 1 </button>
+                <div class="panel">
+                        <div class="left-Sec-cont">
+                                <img src="img/Backup_of_Untitled-1.jpg" alt="">
+                        </div>
+                        <div class="right-Sec-cont">
+                                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi assumenda
+                                        quibusdam
+                                        nulla expedita pariatur alias vero quasi magnam tempore obcaecati?</p>
+                                <button class="btn-panel">Order Now</button>
+                        </div>
+                </div>
+
+                <button class="section">Section - 2 </button>
+                <div class="panel">
+                        <div class="left-Sec-cont">
+                                <img src="img/Backup_of_Untitled-1.jpg" alt="">
+                        </div>
+                        <div class="right-Sec-cont">
+                                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi assumenda
+                                        quibusdam
+                                        nulla expedita pariatur alias vero quasi magnam tempore obcaecati?</p>
+                                <button class="btn-panel">Order Now</button>
+                        </div>
+                </div>
+                <button class="section">Section - 3 </button>
+                <div class="panel">
+                        <div class="left-Sec-cont">
+                                <img src="img/Backup_of_Untitled-1.jpg" alt="">
+                        </div>
+                        <div class="right-Sec-cont">
+                                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi assumenda
+                                        quibusdam
+                                        nulla expedita pariatur alias vero quasi magnam tempore obcaecati?</p>
+                                <button class="btn-panel">Order Now</button>
+                        </div>
+                </div>
+                <button class="section">Section - 4 </button>
+                <div class="panel">
+                        <div class="left-Sec-cont">
+                                <img src="img/Backup_of_Untitled-1.jpg" alt="">
+                        </div>
+                        <div class="right-Sec-cont">
+                                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi assumenda
+                                        quibusdam
+                                        nulla expedita pariatur alias vero quasi magnam tempore obcaecati?</p>
+                                <button class="btn-panel">Order Now</button>
+                        </div>
+                </div>
+        </section>
+        <br>
+        <section class="passWord-Gen">
+                <div class="Box">
+                        <section class="upper">
+                                <h1>Password Generator</h1>
+                                <div class="output">
+                                        <div id="password">
+
+                                        </div>
+                                        <button id="save">
+                                               +
+                                        </button>
+                                </div>
+                                <div class="range_container">
+                                        <label for="range"> Password Length
+                                                <span id="pass-range-val">8</span>
+                                        </label>
+                                        <input type="range" min="1" max="20" value="8" id="pass-range-inout">
+                                </div>
+                                <div class="checkbox">
+                                        <div class="form-control">
+                                                <label for="uppercase">Include UpperCase</label>
+                                                <input type="checkbox" name="uppercase" id="uppercase">
+
+                                        </div>
+                                        <div class="form-control">
+                                                <label for="lowercase">Include lowercase</label>
+                                                <input type="checkbox" name="lowercase" id="lowercase">
+
+                                        </div>
+                                        <div class="form-control">
+                                                <label for="spacial">Include spacial</label>
+                                                <input type="checkbox" name="spacial" id="spacial">
+
+                                        </div>
+                                </div>
+
+
+                        </section>
+                        <div class="foter-password">
+                                <button class="btn" id="Gen-Btn">Generate Password</button>
+                                <button class="clear-btn" id="clear">Clear Password</button>
+                        </div>
+                </div>
+                <div class="saved-password" id="savePass">
+                        
+
+                        
+                      
+                </div>
+                <div class="btn-cle">
+                        <button class="clear-saved" id="clearSaved">Remove Letest</button>
+                <button class="all-clear-saved clear-saved" id="AllclearSaved">Remove All</button>
+                </div>
+        </section>
+        <br>
+        <br>
+        <section class="aboutUs">
+                <div class="heading">About Us</div>
+                <div class="company">
+
+                        <img src="img/bmw1.jpg" alt="">
+                        <img src="img/bmw1.jpg" alt="">
+                        <img src="img/bmw1.jpg" alt="">
+                        <img src="img/bmw1.jpg" alt="">
+                        <img src="img/bmw1.jpg" alt="">
+                        <img src="img/bmw1.jpg" alt="">
+                        <img src="img/bmw1.jpg" alt="">
+                        <img src="img/bmw1.jpg" alt="">
+                </div>
+                <div class="heading">Contact Us</div>
+                <div class="form">
+                        <form action="pizzaHut.html" method="get">
+                                <label for="First" class="label">First name</label><br>
+                                <input type="text" name="FirstName" class="input"><br><br>
+                                <label for="fname" class="label">Last Name</label><br>
+                                <input type="text" name="LastName" class="input"><br><br>
+                                <label for="email" class="label">Email </label><br>
+                                <input type="email" name="email" class="input"><br><br>
+                                <label for="Suggeton" class="label">Suggetion</label><br>
+                                <textarea name="Suggetion" id="Suggetion" rows="7" cols="78"
+                                        placeholder="Give Suggetion" class="textarea"></textarea><br>
+                                <button type="submit" class="btn submit">Submit</button>
+                        </form>
+                </div>
+        </section>
+        <section class="location">
+                <div class="box">
+                        <div class="heading">Surat</div>
+                        <p>Yogi chok</p>
+                        <p>Katargam</p>
+                        <p>Vesu</p>
+                </div>
+                <div class="box">
+                        <div class="heading">Surat</div>
+                        <p>Yogi chok</p>
+                        <p>Katargam</p>
+                        <p>Vesu</p>
+                </div>
+                <div class="box">
+                        <div class="heading">Surat</div>
+                        <p>Yogi chok</p>
+                        <p>Katargam</p>
+                        <p>Vesu</p>
+                </div>
+                <div class="box">
+                        <div class="heading">Surat</div>
+                        <p>Yogi chok</p>
+                        <p>Katargam</p>
+                        <p>Vesu</p>
+                </div>
+        </section>
+        <footer>
+                <p>Copyright All right Reserv </p>
+        </footer>
+        <script src="pizzaScript.js"></script>
+</body>
+
+</html>
